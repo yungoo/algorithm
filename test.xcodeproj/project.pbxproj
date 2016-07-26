@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B00911D31CD9E71B007A2801 /* loanCalclator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B00911D21CD9E71B007A2801 /* loanCalclator.cpp */; };
+		B00911D51CDB670A007A2801 /* permute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B00911D41CDB670A007A2801 /* permute.cpp */; };
+		B00911D71CE024F9007A2801 /* spiralMatrixII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B00911D61CE024F9007A2801 /* spiralMatrixII.cpp */; };
+		B00911DA1CE02536007A2801 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B00911D81CE02536007A2801 /* utils.cpp */; };
+		B00911DC1CE08E77007A2801 /* rotateImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B00911DB1CE08E77007A2801 /* rotateImage.cpp */; };
+		B00B35551D067783000186A4 /* longestIncreasingSubsequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B00B35541D067783000186A4 /* longestIncreasingSubsequence.cpp */; };
+		B0107B201CC5E6B900AAA5FB /* reverseBits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0107B1F1CC5E6B900AAA5FB /* reverseBits.cpp */; };
+		B0111BE81CC61C4100BF8EF3 /* countAndSay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0111BE71CC61C4100BF8EF3 /* countAndSay.cpp */; };
+		B0111BEA1CC62B7900BF8EF3 /* palindromeLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0111BE91CC62B7900BF8EF3 /* palindromeLinkedList.cpp */; };
+		B020B4711CE5619000A568E7 /* containerWithMostWater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B020B4701CE5619000A568E7 /* containerWithMostWater.cpp */; };
+		B020B4731CE9A33B00A568E7 /* searchA2dMatrixII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B020B4721CE9A33B00A568E7 /* searchA2dMatrixII.cpp */; };
+		B044FE551D41F5C300EE11B1 /* levenshteinDistance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B044FE541D41F5C300EE11B1 /* levenshteinDistance.cpp */; };
+		B0FCC6811CB3A176005EA453 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FCC6801CB3A176005EA453 /* main.cpp */; };
+		B0FCC6891CB3BDE8005EA453 /* climbing_stairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FCC6871CB3BDE8005EA453 /* climbing_stairs.cpp */; };
+		B0FCC68B1CB522CB005EA453 /* different_ways_to_add_parentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FCC68A1CB522CB005EA453 /* different_ways_to_add_parentheses.cpp */; };
+		B0FCC68D1CB558D2005EA453 /* basic_calculator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FCC68C1CB558D2005EA453 /* basic_calculator.cpp */; };
+		B0FCC68F1CB5E4F0005EA453 /* express_add_operators.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FCC68E1CB5E4F0005EA453 /* express_add_operators.cpp */; };
+		B0FCC6911CB65064005EA453 /* three_sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FCC6901CB65064005EA453 /* three_sum.cpp */; };
+		B0FCC6931CB65D5C005EA453 /* three_sum_closest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FCC6921CB65D5C005EA453 /* three_sum_closest.cpp */; };
+		B0FCC6951CB6788F005EA453 /* add_two_numers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FCC6941CB6788F005EA453 /* add_two_numers.cpp */; };
+		B0FCC6971CB682ED005EA453 /* add_binary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FCC6961CB682ED005EA453 /* add_binary.cpp */; };
+		B0FCC6991CB73D85005EA453 /* multiple_strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FCC6981CB73D85005EA453 /* multiple_strings.cpp */; };
+		B0FCC69B1CB74284005EA453 /* longest_substring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FCC69A1CB74284005EA453 /* longest_substring.cpp */; };
+		B0FCC69D1CB75343005EA453 /* medianOfTwoSortedArrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FCC69C1CB75343005EA453 /* medianOfTwoSortedArrays.cpp */; };
+		B0FCC6A01CB78228005EA453 /* longestPalindromicSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FCC69E1CB78228005EA453 /* longestPalindromicSubstring.cpp */; };
+		B0FCC6A21CB7ABE9005EA453 /* zigZagConversion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FCC6A11CB7ABE9005EA453 /* zigZagConversion.cpp */; };
+		B0FCC6A41CBC9705005EA453 /* nimGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FCC6A31CBC9705005EA453 /* nimGame.cpp */; };
+		B0FCC6A61CBC9AFC005EA453 /* addDigits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FCC6A51CBC9AFC005EA453 /* addDigits.cpp */; };
+		B0FCC6A81CBCA2BC005EA453 /* happyNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FCC6A71CBCA2BC005EA453 /* happyNumber.cpp */; };
+		B0FCC6AA1CBD17E2005EA453 /* uglyNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FCC6A91CBD17E2005EA453 /* uglyNumber.cpp */; };
+		B0FCC6AC1CBDE6C9005EA453 /* countPrimes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FCC6AB1CBDE6C9005EA453 /* countPrimes.cpp */; };
+		B0FCC6AE1CBDF976005EA453 /* minimumDepthOfBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FCC6AD1CBDF976005EA453 /* minimumDepthOfBinaryTree.cpp */; };
+		B0FCC6B01CBE44B2005EA453 /* moveZeroes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FCC6AF1CBE44B2005EA453 /* moveZeroes.cpp */; };
+		B0FCC6B21CBE9646005EA453 /* lowestCommonAncestor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FCC6B11CBE9646005EA453 /* lowestCommonAncestor.cpp */; };
+		B0FCC6B41CBF76FC005EA453 /* containsDuplicate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FCC6B31CBF76FC005EA453 /* containsDuplicate.cpp */; };
+		B0FCC6B61CBFEC84005EA453 /* majorNumbersII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FCC6B51CBFEC84005EA453 /* majorNumbersII.cpp */; };
+		B0FCC6B81CBFFC90005EA453 /* reverseLinkedListII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FCC6B71CBFFC90005EA453 /* reverseLinkedListII.cpp */; };
+		B0FCC6BA1CC0C7F5005EA453 /* powerOfThree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FCC6B91CC0C7F5005EA453 /* powerOfThree.cpp */; };
+		B0FCC6BC1CC1E727005EA453 /* reverseNodesInKGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FCC6BB1CC1E727005EA453 /* reverseNodesInKGroup.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B0FCC67B1CB3A176005EA453 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B00911D21CD9E71B007A2801 /* loanCalclator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = loanCalclator.cpp; sourceTree = "<group>"; };
+		B00911D41CDB670A007A2801 /* permute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = permute.cpp; sourceTree = "<group>"; };
+		B00911D61CE024F9007A2801 /* spiralMatrixII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = spiralMatrixII.cpp; sourceTree = "<group>"; };
+		B00911D81CE02536007A2801 /* utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utils.cpp; sourceTree = "<group>"; };
+		B00911D91CE02536007A2801 /* utils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = utils.hpp; sourceTree = "<group>"; };
+		B00911DB1CE08E77007A2801 /* rotateImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rotateImage.cpp; sourceTree = "<group>"; };
+		B00B35541D067783000186A4 /* longestIncreasingSubsequence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = longestIncreasingSubsequence.cpp; sourceTree = "<group>"; };
+		B0107B1F1CC5E6B900AAA5FB /* reverseBits.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = reverseBits.cpp; sourceTree = "<group>"; };
+		B0111BE71CC61C4100BF8EF3 /* countAndSay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = countAndSay.cpp; sourceTree = "<group>"; };
+		B0111BE91CC62B7900BF8EF3 /* palindromeLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = palindromeLinkedList.cpp; sourceTree = "<group>"; };
+		B020B4701CE5619000A568E7 /* containerWithMostWater.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = containerWithMostWater.cpp; sourceTree = "<group>"; };
+		B020B4721CE9A33B00A568E7 /* searchA2dMatrixII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = searchA2dMatrixII.cpp; sourceTree = "<group>"; };
+		B044FE541D41F5C300EE11B1 /* levenshteinDistance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = levenshteinDistance.cpp; sourceTree = "<group>"; };
+		B0FCC67D1CB3A176005EA453 /* test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0FCC6801CB3A176005EA453 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B0FCC6871CB3BDE8005EA453 /* climbing_stairs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = climbing_stairs.cpp; sourceTree = "<group>"; };
+		B0FCC68A1CB522CB005EA453 /* different_ways_to_add_parentheses.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = different_ways_to_add_parentheses.cpp; sourceTree = "<group>"; };
+		B0FCC68C1CB558D2005EA453 /* basic_calculator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = basic_calculator.cpp; sourceTree = "<group>"; };
+		B0FCC68E1CB5E4F0005EA453 /* express_add_operators.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = express_add_operators.cpp; sourceTree = "<group>"; };
+		B0FCC6901CB65064005EA453 /* three_sum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = three_sum.cpp; sourceTree = "<group>"; };
+		B0FCC6921CB65D5C005EA453 /* three_sum_closest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = three_sum_closest.cpp; sourceTree = "<group>"; };
+		B0FCC6941CB6788F005EA453 /* add_two_numers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = add_two_numers.cpp; sourceTree = "<group>"; };
+		B0FCC6961CB682ED005EA453 /* add_binary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = add_binary.cpp; sourceTree = "<group>"; };
+		B0FCC6981CB73D85005EA453 /* multiple_strings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = multiple_strings.cpp; sourceTree = "<group>"; };
+		B0FCC69A1CB74284005EA453 /* longest_substring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = longest_substring.cpp; sourceTree = "<group>"; };
+		B0FCC69C1CB75343005EA453 /* medianOfTwoSortedArrays.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = medianOfTwoSortedArrays.cpp; sourceTree = "<group>"; };
+		B0FCC69E1CB78228005EA453 /* longestPalindromicSubstring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = longestPalindromicSubstring.cpp; sourceTree = "<group>"; };
+		B0FCC6A11CB7ABE9005EA453 /* zigZagConversion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = zigZagConversion.cpp; sourceTree = "<group>"; };
+		B0FCC6A31CBC9705005EA453 /* nimGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nimGame.cpp; sourceTree = "<group>"; };
+		B0FCC6A51CBC9AFC005EA453 /* addDigits.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = addDigits.cpp; sourceTree = "<group>"; };
+		B0FCC6A71CBCA2BC005EA453 /* happyNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = happyNumber.cpp; sourceTree = "<group>"; };
+		B0FCC6A91CBD17E2005EA453 /* uglyNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uglyNumber.cpp; sourceTree = "<group>"; };
+		B0FCC6AB1CBDE6C9005EA453 /* countPrimes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = countPrimes.cpp; sourceTree = "<group>"; };
+		B0FCC6AD1CBDF976005EA453 /* minimumDepthOfBinaryTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = minimumDepthOfBinaryTree.cpp; sourceTree = "<group>"; };
+		B0FCC6AF1CBE44B2005EA453 /* moveZeroes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = moveZeroes.cpp; sourceTree = "<group>"; };
+		B0FCC6B11CBE9646005EA453 /* lowestCommonAncestor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lowestCommonAncestor.cpp; sourceTree = "<group>"; };
+		B0FCC6B31CBF76FC005EA453 /* containsDuplicate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = containsDuplicate.cpp; sourceTree = "<group>"; };
+		B0FCC6B51CBFEC84005EA453 /* majorNumbersII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = majorNumbersII.cpp; sourceTree = "<group>"; };
+		B0FCC6B71CBFFC90005EA453 /* reverseLinkedListII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = reverseLinkedListII.cpp; sourceTree = "<group>"; };
+		B0FCC6B91CC0C7F5005EA453 /* powerOfThree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = powerOfThree.cpp; sourceTree = "<group>"; };
+		B0FCC6BB1CC1E727005EA453 /* reverseNodesInKGroup.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = reverseNodesInKGroup.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0FCC67A1CB3A176005EA453 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0FCC6741CB3A176005EA453 = {
+			isa = PBXGroup;
+			children = (
+				B0FCC67F1CB3A176005EA453 /* test */,
+				B0FCC67E1CB3A176005EA453 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0FCC67E1CB3A176005EA453 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0FCC67D1CB3A176005EA453 /* test */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0FCC67F1CB3A176005EA453 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				B0FCC6801CB3A176005EA453 /* main.cpp */,
+				B0FCC6871CB3BDE8005EA453 /* climbing_stairs.cpp */,
+				B0FCC68A1CB522CB005EA453 /* different_ways_to_add_parentheses.cpp */,
+				B0FCC68C1CB558D2005EA453 /* basic_calculator.cpp */,
+				B0FCC68E1CB5E4F0005EA453 /* express_add_operators.cpp */,
+				B0FCC6901CB65064005EA453 /* three_sum.cpp */,
+				B0FCC6921CB65D5C005EA453 /* three_sum_closest.cpp */,
+				B0FCC6941CB6788F005EA453 /* add_two_numers.cpp */,
+				B0FCC6961CB682ED005EA453 /* add_binary.cpp */,
+				B0FCC6981CB73D85005EA453 /* multiple_strings.cpp */,
+				B0FCC69A1CB74284005EA453 /* longest_substring.cpp */,
+				B0FCC69C1CB75343005EA453 /* medianOfTwoSortedArrays.cpp */,
+				B0FCC69E1CB78228005EA453 /* longestPalindromicSubstring.cpp */,
+				B0FCC6A11CB7ABE9005EA453 /* zigZagConversion.cpp */,
+				B0FCC6A31CBC9705005EA453 /* nimGame.cpp */,
+				B0FCC6A51CBC9AFC005EA453 /* addDigits.cpp */,
+				B0FCC6A71CBCA2BC005EA453 /* happyNumber.cpp */,
+				B0FCC6A91CBD17E2005EA453 /* uglyNumber.cpp */,
+				B0FCC6AB1CBDE6C9005EA453 /* countPrimes.cpp */,
+				B0FCC6AD1CBDF976005EA453 /* minimumDepthOfBinaryTree.cpp */,
+				B0FCC6AF1CBE44B2005EA453 /* moveZeroes.cpp */,
+				B0FCC6B11CBE9646005EA453 /* lowestCommonAncestor.cpp */,
+				B0FCC6B31CBF76FC005EA453 /* containsDuplicate.cpp */,
+				B0FCC6B51CBFEC84005EA453 /* majorNumbersII.cpp */,
+				B0FCC6B71CBFFC90005EA453 /* reverseLinkedListII.cpp */,
+				B0FCC6B91CC0C7F5005EA453 /* powerOfThree.cpp */,
+				B0FCC6BB1CC1E727005EA453 /* reverseNodesInKGroup.cpp */,
+				B0107B1F1CC5E6B900AAA5FB /* reverseBits.cpp */,
+				B0111BE71CC61C4100BF8EF3 /* countAndSay.cpp */,
+				B0111BE91CC62B7900BF8EF3 /* palindromeLinkedList.cpp */,
+				B00911D21CD9E71B007A2801 /* loanCalclator.cpp */,
+				B00911D41CDB670A007A2801 /* permute.cpp */,
+				B00911D61CE024F9007A2801 /* spiralMatrixII.cpp */,
+				B00911D81CE02536007A2801 /* utils.cpp */,
+				B00911D91CE02536007A2801 /* utils.hpp */,
+				B00911DB1CE08E77007A2801 /* rotateImage.cpp */,
+				B020B4701CE5619000A568E7 /* containerWithMostWater.cpp */,
+				B020B4721CE9A33B00A568E7 /* searchA2dMatrixII.cpp */,
+				B00B35541D067783000186A4 /* longestIncreasingSubsequence.cpp */,
+				B044FE541D41F5C300EE11B1 /* levenshteinDistance.cpp */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0FCC67C1CB3A176005EA453 /* test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0FCC6841CB3A176005EA453 /* Build configuration list for PBXNativeTarget "test" */;
+			buildPhases = (
+				B0FCC6791CB3A176005EA453 /* Sources */,
+				B0FCC67A1CB3A176005EA453 /* Frameworks */,
+				B0FCC67B1CB3A176005EA453 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = test;
+			productName = test;
+			productReference = B0FCC67D1CB3A176005EA453 /* test */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0FCC6751CB3A176005EA453 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "yingtian corp";
+				TargetAttributes = {
+					B0FCC67C1CB3A176005EA453 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = B0FCC6781CB3A176005EA453 /* Build configuration list for PBXProject "test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B0FCC6741CB3A176005EA453;
+			productRefGroup = B0FCC67E1CB3A176005EA453 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0FCC67C1CB3A176005EA453 /* test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0FCC6791CB3A176005EA453 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0FCC6AC1CBDE6C9005EA453 /* countPrimes.cpp in Sources */,
+				B00911DA1CE02536007A2801 /* utils.cpp in Sources */,
+				B0FCC6A81CBCA2BC005EA453 /* happyNumber.cpp in Sources */,
+				B0107B201CC5E6B900AAA5FB /* reverseBits.cpp in Sources */,
+				B0FCC69D1CB75343005EA453 /* medianOfTwoSortedArrays.cpp in Sources */,
+				B0FCC6BC1CC1E727005EA453 /* reverseNodesInKGroup.cpp in Sources */,
+				B020B4731CE9A33B00A568E7 /* searchA2dMatrixII.cpp in Sources */,
+				B0111BEA1CC62B7900BF8EF3 /* palindromeLinkedList.cpp in Sources */,
+				B0FCC6B81CBFFC90005EA453 /* reverseLinkedListII.cpp in Sources */,
+				B020B4711CE5619000A568E7 /* containerWithMostWater.cpp in Sources */,
+				B0FCC6991CB73D85005EA453 /* multiple_strings.cpp in Sources */,
+				B0FCC6BA1CC0C7F5005EA453 /* powerOfThree.cpp in Sources */,
+				B0FCC6B41CBF76FC005EA453 /* containsDuplicate.cpp in Sources */,
+				B0FCC6AA1CBD17E2005EA453 /* uglyNumber.cpp in Sources */,
+				B0FCC6A01CB78228005EA453 /* longestPalindromicSubstring.cpp in Sources */,
+				B0FCC6891CB3BDE8005EA453 /* climbing_stairs.cpp in Sources */,
+				B0FCC6B01CBE44B2005EA453 /* moveZeroes.cpp in Sources */,
+				B0111BE81CC61C4100BF8EF3 /* countAndSay.cpp in Sources */,
+				B0FCC6931CB65D5C005EA453 /* three_sum_closest.cpp in Sources */,
+				B0FCC6B61CBFEC84005EA453 /* majorNumbersII.cpp in Sources */,
+				B044FE551D41F5C300EE11B1 /* levenshteinDistance.cpp in Sources */,
+				B00B35551D067783000186A4 /* longestIncreasingSubsequence.cpp in Sources */,
+				B00911D71CE024F9007A2801 /* spiralMatrixII.cpp in Sources */,
+				B0FCC6A41CBC9705005EA453 /* nimGame.cpp in Sources */,
+				B00911DC1CE08E77007A2801 /* rotateImage.cpp in Sources */,
+				B0FCC68F1CB5E4F0005EA453 /* express_add_operators.cpp in Sources */,
+				B0FCC68B1CB522CB005EA453 /* different_ways_to_add_parentheses.cpp in Sources */,
+				B0FCC6A21CB7ABE9005EA453 /* zigZagConversion.cpp in Sources */,
+				B0FCC68D1CB558D2005EA453 /* basic_calculator.cpp in Sources */,
+				B0FCC69B1CB74284005EA453 /* longest_substring.cpp in Sources */,
+				B0FCC6A61CBC9AFC005EA453 /* addDigits.cpp in Sources */,
+				B0FCC6911CB65064005EA453 /* three_sum.cpp in Sources */,
+				B0FCC6AE1CBDF976005EA453 /* minimumDepthOfBinaryTree.cpp in Sources */,
+				B00911D31CD9E71B007A2801 /* loanCalclator.cpp in Sources */,
+				B0FCC6951CB6788F005EA453 /* add_two_numers.cpp in Sources */,
+				B0FCC6811CB3A176005EA453 /* main.cpp in Sources */,
+				B0FCC6971CB682ED005EA453 /* add_binary.cpp in Sources */,
+				B00911D51CDB670A007A2801 /* permute.cpp in Sources */,
+				B0FCC6B21CBE9646005EA453 /* lowestCommonAncestor.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B0FCC6821CB3A176005EA453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B0FCC6831CB3A176005EA453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B0FCC6851CB3A176005EA453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B0FCC6861CB3A176005EA453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0FCC6781CB3A176005EA453 /* Build configuration list for PBXProject "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0FCC6821CB3A176005EA453 /* Debug */,
+				B0FCC6831CB3A176005EA453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0FCC6841CB3A176005EA453 /* Build configuration list for PBXNativeTarget "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0FCC6851CB3A176005EA453 /* Debug */,
+				B0FCC6861CB3A176005EA453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0FCC6751CB3A176005EA453 /* Project object */;
+}
